@@ -173,7 +173,7 @@ a:hover span{
     color:#E0E0E0;
     text-align: center;
     align-items: center;
-  
+    
     margin: 1rem .5rem;
 
     
@@ -407,24 +407,35 @@ tr rd:first-child{
     margin-bottom: 3rem;
 }
 
-.template{
-    width: 97%;
-    text-align: center;
-    transition: 1.2s;
-    background-color: #fae5df;
-    height: fit-content;
-    padding: 1rem 1rem;
-    margin: 5rem auto;
+.banner{
+    display: flex;
+    width: 90%;
+    margin: 2rem 3rem;
+    background-color: #121212;
+}
+.desc{
+    color:#C0C0C0;
     align-items: center;
-    font-size: 1.2rem;
-}
-.template p h2{
-    font-weight: bolder;
-    font-size: 0rem;
-}
+    text-align: center;
+    padding:4rem 1rem;
+    font-size: 2rem;
 
-.heading {
-    margin: 5px 5px;
-    font-weight: bold;
-}
+    margin: 1rem 1rem;
 
+}    
+.desc h1{
+    font-size: 2rem;
+    color:#03DAC6;
+    
+}
+.imm{
+    border-radius: 32rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+.imm1{
+    border-radius: 32rem;
+    margin-top: 1rem;
+    margin-left:10rem;
+}
