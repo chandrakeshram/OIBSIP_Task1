@@ -14,6 +14,7 @@ body{
     padding: 0rem 1rem;
     background-color: #121212;
     margin-top: 0rem;
+    position:sticky;
 }
 .navbar .logo{
     margin:0.5rem 1rem;
